@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.imc-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-family: "SN Pro", sans-serif;
+    background: linear-gradient(135deg, #3452db 0%, #4f1b82 100%);
+}
+.imc-card{
+    background: rgb(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 18px;
+    padding: 50px 40px;
+    min-width: 480px;
+    width: 100%;¨
+    border: 1px solid #fff;
+}
