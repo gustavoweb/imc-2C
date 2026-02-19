@@ -4,27 +4,22 @@ import './App.css'
 export default function App() {
   return (
     <>
-     <div className="imc-container">
-      <div className="imc-card">
-        <div className="imc-header">
-          <h1>Calculadora IMC</h1>
-          <p>Descubra seu índice de massa corporal</p>
-        </div>
-
-        <div className="imc-form">
+      <div className="imc-container">
+        <div className="imc-card">
+          <div className="imc-header">
+            <h1></h1>
+            <h1>caucolando peso corporal</h1>   </div>
+          <div className='imc-form'></div>
           <input 
-            type="number" 
-            placeholder='Ex: 70' 
-          />
-          <input type="number" 
-            placeholder='Ex: 1.75' 
-          />
-          <button>Calcular</button>
-          <button>Limpar</button>
-        </div>
-
-      </div> {/* Fecha Card */}
-     </div> {/* Fecha Container */}
+          type="number" 
+          placeholder='ex:70'/>
+          <input 
+          type="number" 
+          placeholder='ex:1.75'/>
+          <button>Caucular</button>
+          <button>limpar</button>
+        </div> 
+      </div> 
     </>
   )
 }
